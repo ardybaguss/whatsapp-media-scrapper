@@ -1,0 +1,7 @@
+console.log("Script mulai berjalan.");
+var image = document.querySelector('.image-class');
+if (image) {
+  console.log("Gambar ditemukan:", image.src);
+} else {
+  console.error("Gambar tidak ditemukan.");
+}
